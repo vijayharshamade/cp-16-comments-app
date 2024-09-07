@@ -1,0 +1,125 @@
+.comment-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
+  padding-top: 10px;
+  padding-left: 12px;
+  margin-bottom: 10px;
+}
+.comment-container {
+  display: flex;
+  align-items: flex-start;
+}
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+.initial {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin: 0;
+}
+.username-time-container {
+  display: flex;
+  align-items: flex-start;
+}
+.username {
+  color: #334155;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.time {
+  color: #94a3b8;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 18px;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+.comment {
+  color: #64748b;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin-left: 42px;
+  margin-top: 0;
+  overflow-wrap: break-word; /*for better browser compatibility8/
+  /* word-wrap: break-word;  */
+}
+.buttons-container {
+  display: flex;
+}
+.like-button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.like-button-img {
+  width: 20px;
+  height: 20px;
+}
+.like-text {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #64748b;
+  margin-left: 5px;
+}
+.liked-text {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #0b69ff;
+  margin-left: 5px;
+}
+.delete-button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+}
+.delete-button-img {
+  width: 20px;
+  height: 20px;
+}
