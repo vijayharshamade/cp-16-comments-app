@@ -3,16 +3,16 @@ import { v4 as uuidv4 } from "uuid";
 import { useState } from "react";
 import CommentItem from "../CommentItem";
 
-const dummyList = [
-  {
-    id: uuidv4(),
-    name: "vijay",
-    comment: "commentInput",
-    date: new Date(),
-    isLiked: false,
-    initialClassName: "amber",
-  },
-];
+// const dummyList = [
+//   {
+//     id: uuidv4(),
+//     name: "vijay",
+//     comment: "commentInput",
+//     date: new Date(),
+//     isLiked: false,
+//     initialClassName: "amber",
+//   },
+// ];
 const initialContainerBackgroundClassNames = [
   "amber",
   "blue",
